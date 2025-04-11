@@ -1,0 +1,29 @@
+object DataModule1: TDataModule1
+  Height = 480
+  Width = 640
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\prisc\OneDrive\Documentos\Hospital\DADOS\DADOS' +
+        '.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    Left = 304
+    Top = 224
+  end
+  object FDQuery1: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT *FROM PACIENTE')
+    Left = 328
+    Top = 320
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 472
+    Top = 304
+  end
+end

@@ -1,0 +1,72 @@
+object DataModule1: TDataModule1
+  Height = 480
+  Width = 640
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\prisc\OneDrive\Documentos\Hospital\DADOS\DADOS' +
+        '.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    Left = 72
+    Top = 56
+  end
+  object qryPaciente: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT *FROM PACIENTE')
+    Left = 184
+    Top = 56
+    object qryPacienteNOME: TStringField
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Required = True
+      Size = 100
+    end
+    object qryPacienteTELEFONE: TStringField
+      FieldName = 'TELEFONE'
+      Origin = 'TELEFONE'
+      Required = True
+      Size = 80
+    end
+    object qryPacienteEMAIL: TStringField
+      FieldName = 'EMAIL'
+      Origin = 'EMAIL'
+      Required = True
+      Size = 100
+    end
+  end
+  object dsPaciente: TDataSource
+    DataSet = qryPaciente
+    Left = 288
+    Top = 56
+  end
+  object qryMedico: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT *FROM MEDICO')
+    Left = 160
+    Top = 192
+    object qryMedicoNOME: TStringField
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Required = True
+      Size = 100
+    end
+    object qryMedicoESPECIALIDADE: TStringField
+      FieldName = 'ESPECIALIDADE'
+      Origin = 'ESPECIALIDADE'
+      Required = True
+      Size = 100
+    end
+  end
+  object dsMedico: TDataSource
+    DataSet = qryMedico
+    Left = 296
+    Top = 200
+  end
+end

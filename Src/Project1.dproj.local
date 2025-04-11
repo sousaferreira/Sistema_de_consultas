@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/04/08 12:34:17.000.904,=C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/08 12:34:34.000.472,C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\FmrPrincipal.dfm</Transaction>
+    <Transaction>2025/04/08 12:34:34.000.472,C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\FmrPrincipal.pas</Transaction>
+    <Transaction>2025/04/08 12:35:17.000.567,=C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/04/08 12:35:33.000.782,C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\FmrPaciente.dfm</Transaction>
+    <Transaction>2025/04/08 12:35:33.000.782,C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\FmrPaciente.pas</Transaction>
+    <Transaction>2025/04/08 12:35:44.000.903,=C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/08 12:37:51.000.800,C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\DMprincipal.pas</Transaction>
+    <Transaction>2025/04/08 12:37:51.000.800,C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\DMprincipal.dfm</Transaction>
+    <Transaction>2025/04/08 12:39:45.000.476,C:\Users\prisc\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj</Transaction>
+    <Transaction>2025/04/08 13:45:17.000.296,=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Unit3.pas</Transaction>
+    <Transaction>2025/04/08 13:45:30.000.393,C:\Users\prisc\OneDrive\Documentos\Hospital\Src\FmrMedico.pas=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Unit3.pas</Transaction>
+    <Transaction>2025/04/08 13:45:30.000.393,C:\Users\prisc\OneDrive\Documentos\Hospital\Src\FmrMedico.dfm=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Unit3.dfm</Transaction>
+    <Transaction>2025/04/08 20:55:12.000.425,C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj</Transaction>
+    <Transaction>2025/04/09 19:30:44.000.476,=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Unit4.pas</Transaction>
+    <Transaction>2025/04/09 19:30:54.000.749,C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Unit4.dfm=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\FmrConsulta.dfm</Transaction>
+    <Transaction>2025/04/09 19:30:54.000.749,C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Unit4.pas=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\FmrConsulta.pas</Transaction>
+    <Transaction>2025/04/09 20:31:59.000.240,C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj</Transaction>
+    <Transaction>2025/04/09 21:33:53.000.863,C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj</Transaction>
+    <Transaction>2025/04/09 21:34:29.000.892,C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj=C:\Users\prisc\OneDrive\Documentos\Hospital\Src\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

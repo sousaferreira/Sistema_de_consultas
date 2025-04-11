@@ -1,0 +1,56 @@
+unit FmrMedico;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls,
+  Vcl.DBCtrls, DMprincipal, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Buttons;
+
+type
+  TForm3 = class(TForm)
+    edtNome: TDBEdit;
+    Nome: TLabel;
+    edtEspecialidade: TDBEdit;
+    Especialidade: TLabel;
+    DBNavigator1: TDBNavigator;
+    DBGrid1: TDBGrid;
+    Button1: TButton;
+    procedure FormShow(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm3.Button1Click(Sender: TObject);
+begin
+if DataModule1.qryMedico.State in [dsEdit, dsInsert] then
+    DataModule1.qryMedico.Post;
+end;
+
+procedure TForm3.FormShow(Sender: TObject);
+begin
+  DataModule1.qryMedico.Active := True;
+
+  edtNome.DataSource := DataModule1.dsMedico;
+  edtNome.DataField := 'NOME';
+
+  edtEspecialidade.DataSource := DataModule1.dsMedico;
+  edtEspecialidade.DataField := 'ESPECIALIDADE';
+
+  DBNavigator1.DataSource := DataModule1.dsMedico;
+  DBGrid1.DataSource := DataModule1.dsMedico;
+end;
+
+
+
+end.
